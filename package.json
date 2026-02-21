@@ -1,0 +1,17 @@
+{
+  "name": "discord-slot-bot",
+  "version": "3.0.0",
+  "description": "Drop Vault Discord bot — slots, verification, weekend events",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "better-sqlite3": "^9.4.3"
+  }
+}
